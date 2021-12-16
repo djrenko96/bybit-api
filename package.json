@@ -1,0 +1,34 @@
+{
+  "name": "bybit-api",
+  "version": "1.0.0",
+  "description": "Unofficial bybit api wrapper",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "bybit",
+    "exchange",
+    "api"
+  ],
+  "author": "djrenko96 (vlad.gr.1996@gmail.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djrenko96/bybit-api.git"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/jest": "^27.0.3",
+    "crypto-js": "^4.1.1",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
